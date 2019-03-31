@@ -1,0 +1,36 @@
+.vui-form-item__error {
+    display: none;
+    padding-top: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: 1;
+    font-size: 12px;
+    color: #b9bdbe;
+    white-space: nowrap;
+}
+.vui-form-item__content{
+    position: relative;
+}
+.vui-input__inner {
+    display: inline-block;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #dee3f0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.vui-form-item.is-error .vui-input__inner{
+    border-color: #f56c6c;
+}
+.vui-form-item.is-error .vui-select__inner{
+    border-color: #f56c6c;
+}
+
+.is-error .vui-form-item__error{
+    display: block;
+}
